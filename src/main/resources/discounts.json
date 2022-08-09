@@ -1,0 +1,138 @@
+[
+  {
+    "id":1,
+    "category": {
+      "id": 1,
+      "name": "Bread"
+    },
+    "origenCountry": null,
+    "discountRule": {
+      "id": 1,
+      "minimum": 3.0,
+      "maximum": 5.0,
+      "type": "STORAGE_TIME"
+    },
+    "discountUnit": 1,
+    "discountType": "FREE_UNITS",
+    "minPurchasedQuantity": 2.0
+  },
+  {
+    "id":2,
+    "category": {
+      "id": 1,
+      "name": "Bread"
+    },
+    "origenCountry": null,
+    "discountRule": {
+      "id": 2,
+      "minimum": 6.0,
+      "maximum": 6.0,
+      "type": "STORAGE_TIME"
+    },
+    "discountUnit": 2,
+    "discountType": "FREE_UNITS",
+    "minPurchasedQuantity": 3.0
+  },
+  {
+    "id":3,
+    "category": {
+      "id": 3,
+      "name": "Vegetables"
+    },
+    "origenCountry": null,
+    "discountRule": {
+      "id": 3,
+      "minimum": 0.0001,
+      "maximum": 100.0,
+      "type": "PURCHASE_QUANTITY_IN_RANGE"
+    },
+    "discountUnit": 5,
+    "discountType": "PERCENTAGE",
+    "minPurchasedQuantity": 0.0001
+  },
+  {
+    "id":4,
+    "category": {
+      "id": 3,
+      "name": "Vegetables"
+    },
+    "origenCountry": null,
+    "discountRule": {
+      "id": 4,
+      "minimum": 100.0001,
+      "maximum": 500.0,
+      "type": "PURCHASE_QUANTITY_IN_RANGE"
+    },
+    "discountUnit": 7,
+    "discountType": "PERCENTAGE",
+    "minPurchasedQuantity": 0.0001
+  },
+  {
+    "id":5,
+    "category": {
+      "id": 3,
+      "name": "Vegetables"
+    },
+    "origenCountry": null,
+    "discountRule": {
+      "id": 5,
+      "minimum": 500.0001,
+      "maximum": 99999.0,
+      "type": "PURCHASE_QUANTITY_IN_RANGE"
+    },
+    "discountUnit": 10,
+    "discountType": "PERCENTAGE",
+    "minPurchasedQuantity": 0.0001
+  },
+  {
+    "id":6,
+    "category": {
+      "id": 2,
+      "name": "Beer"
+    },
+    "origenCountry": "Belgium",
+    "discountRule": {
+      "id": 6,
+      "minimum": 6,
+      "maximum": null,
+      "type": "PURCHASE_QUANTITY_IN_RANGE"
+    },
+    "discountUnit": 3,
+    "discountType": "OFFER_AMOUNT",
+    "minPurchasedQuantity": 6
+  },
+  {
+    "id":7,
+    "category": {
+      "id": 2,
+      "name": "Beer"
+    },
+    "origenCountry": "Dutch",
+    "discountRule": {
+      "id": 6,
+      "minimum": 6,
+      "maximum": null,
+      "type": "PURCHASE_QUANTITY_IN_RANGE"
+    },
+    "discountUnit": 2,
+    "discountType": "OFFER_AMOUNT",
+    "minPurchasedQuantity": 6
+  },
+  {
+    "id":8,
+    "category": {
+      "id": 2,
+      "name": "Beer"
+    },
+    "origenCountry": "German",
+    "discountRule": {
+      "id": 6,
+      "minimum": 6,
+      "maximum": null,
+      "type": "PURCHASE_QUANTITY_IN_RANGE"
+    },
+    "discountUnit": 3,
+    "discountType": "OFFER_AMOUNT",
+    "minPurchasedQuantity": 6
+  }
+]

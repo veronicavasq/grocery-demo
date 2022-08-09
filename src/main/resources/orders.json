@@ -1,0 +1,291 @@
+[
+  {
+    "id": 1,
+    "items": [
+      {
+        "article": {
+          "id": 1,
+          "name": "French Bread",
+          "category": {
+            "id": 1,
+            "name": "Bread"
+          },
+          "origenCountry": null,
+          "unitPrice": 1,
+          "lastEntryDate": [
+            2022,
+            8,
+            2,
+            10,
+            15,
+            30
+          ]
+        },
+        "quantity": 3.0
+      },
+      {
+        "article": {
+          "id": 2,
+          "name": "Italian Bread",
+          "category": {
+            "id": 1,
+            "name": "Bread"
+          },
+          "origenCountry": null,
+          "unitPrice": 2,
+          "lastEntryDate": [
+            2022,
+            8,
+            2,
+            10,
+            15,
+            30
+          ]
+        },
+        "quantity": 2.0
+      },
+      {
+        "article": {
+          "id": 3,
+          "name": "Sweet Bread",
+          "category": {
+            "id": 1,
+            "name": "Bread"
+          },
+          "origenCountry": null,
+          "unitPrice": 1.25,
+          "lastEntryDate": [
+            2022,
+            8,
+            8,
+            10,
+            15,
+            30
+          ]
+        },
+        "quantity": 7.0
+      },
+      {
+        "article": {
+          "id": 4,
+          "name": "Tomato",
+          "category": {
+            "id": 3,
+            "name": "Vegetables"
+          },
+          "origenCountry": null,
+          "unitPrice": 0.03,
+          "lastEntryDate": [
+            2022,
+            8,
+            8,
+            10,
+            15,
+            30
+          ]
+        },
+        "quantity": 75
+      },
+      {
+        "article": {
+          "id": 5,
+          "name": "Heineken",
+          "category": {
+            "id": 2,
+            "name": "Beer"
+          },
+          "origenCountry": "Dutch",
+          "unitPrice": 1.05,
+          "lastEntryDate": [
+            2022,
+            8,
+            2,
+            10,
+            15,
+            30
+          ]
+        },
+        "quantity": 8.0
+      },
+      {
+        "article": {
+          "id": 6,
+          "name": "Duvel",
+          "category": {
+            "id": 2,
+            "name": "Beer"
+          },
+          "origenCountry": "Belgium",
+          "unitPrice": 2.25,
+          "lastEntryDate": [
+            2022,
+            8,
+            2,
+            10,
+            15,
+            30
+          ]
+        },
+        "quantity": 3.0
+      },
+      {
+        "article": {
+          "id": 7,
+          "name": "Doppelbock",
+          "category": {
+            "id": 2,
+            "name": "Beer"
+          },
+          "origenCountry": "German",
+          "unitPrice": 3,
+          "lastEntryDate": [
+            2022,
+            8,
+            2,
+            10,
+            15,
+            30
+          ]
+        },
+        "quantity": 14
+      },
+      {
+        "article": {
+          "id": 8,
+          "name": "Potato",
+          "category": {
+            "id": 3,
+            "name": "Vegetables"
+          },
+          "origenCountry": null,
+          "unitPrice": 0.02,
+          "lastEntryDate": [
+            2022,
+            8,
+            8,
+            10,
+            15,
+            30
+          ]
+        },
+        "quantity": 350.24
+      },
+      {
+        "article": {
+          "id": 9,
+          "name": "Carrot",
+          "category": {
+            "id": 3,
+            "name": "Vegetables"
+          },
+          "origenCountry": null,
+          "unitPrice": 0.03,
+          "lastEntryDate": [
+            2022,
+            8,
+            8,
+            10,
+            15,
+            30
+          ]
+        },
+        "quantity": 600.07
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "items": [
+      {
+        "article": {
+          "id": 1,
+          "name": "French Bread",
+          "category": {
+            "id": 1,
+            "name": "Bread"
+          },
+          "origenCountry": null,
+          "unitPrice": 1,
+          "lastEntryDate": [
+            2022,
+            8,
+            8,
+            10,
+            15,
+            30
+          ]
+        },
+        "quantity": 13.0
+      },
+      {
+        "article": {
+          "id": 4,
+          "name": "Tomato",
+          "category": {
+            "id": 3,
+            "name": "Vegetables"
+          },
+          "origenCountry": null,
+          "unitPrice": 0.03,
+          "lastEntryDate": [
+            2022,
+            8,
+            8,
+            10,
+            15,
+            30
+          ]
+        },
+        "quantity": 499.20
+      },
+      {
+        "article": {
+          "id": 5,
+          "name": "Heineken",
+          "category": {
+            "id": 2,
+            "name": "Beer"
+          },
+          "origenCountry": "Dutch",
+          "unitPrice": 1.05,
+          "lastEntryDate": [
+            2022,
+            8,
+            2,
+            10,
+            15,
+            30
+          ]
+        },
+        "quantity": 18.0
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "items": [
+      {
+        "article": {
+          "id": 2,
+          "name": "Italian Bread",
+          "category": {
+            "id": 1,
+            "name": "Bread"
+          },
+          "origenCountry": null,
+          "unitPrice": 2,
+          "lastEntryDate": [
+            2022,
+            8,
+            1,
+            10,
+            15,
+            30
+          ]
+        },
+        "quantity": 1
+      }
+
+    ]
+  }
+]
