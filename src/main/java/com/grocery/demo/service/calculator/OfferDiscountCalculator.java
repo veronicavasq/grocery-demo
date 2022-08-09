@@ -1,4 +1,4 @@
-package com.grocery.demo.service.processor;
+package com.grocery.demo.service.calculator;
 
 import com.grocery.demo.model.Discount;
 import com.grocery.demo.model.DiscountType;

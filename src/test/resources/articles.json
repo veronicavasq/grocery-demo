@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "French Bread",
+    "category": {
+      "id": 1,
+      "name": "Bread"
+    },
+    "origenCountry": null,
+    "unitPrice": 1,
+    "lastEntryDate": 1659398881000
+  },
+  {
+    "id": 2,
+    "name": "Italian Bread",
+    "category": {
+      "id": 1,
+      "name": "Bread"
+    },
+    "origenCountry": null,
+    "unitPrice": 2,
+    "lastEntryDate": 1659398881000
+  },
+  {
+    "id": 3,
+    "name": "Sweet Bread",
+    "category": {
+      "id": 1,
+      "name": "Bread"
+    },
+    "origenCountry": null,
+    "unitPrice": 1.25,
+    "lastEntryDate": 1659966868216
+  },
+  {
+    "id": 4,
+    "name": "Tomato",
+    "category": {
+      "id": 3,
+      "name": "Vegetables"
+    },
+    "origenCountry": null,
+    "unitPrice": 2.75,
+    "lastEntryDate": 1659966868216
+  },
+  {
+    "id": 5,
+    "name": "Heineken",
+    "category": {
+      "id": 2,
+      "name": "Beer"
+    },
+    "origenCountry": "Dutch",
+    "unitPrice": 1.05,
+    "lastEntryDate": 1659966868216
+  }
+]

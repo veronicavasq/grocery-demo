@@ -10,8 +10,8 @@ import com.grocery.demo.repository.DiscountRepository;
 import com.grocery.demo.repository.OrderRepository;
 import com.grocery.demo.service.evaluator.DiscountEvaluatorFactory;
 import com.grocery.demo.service.evaluator.IRuleEvaluator;
-import com.grocery.demo.service.processor.DiscountCalculatorFactory;
-import com.grocery.demo.service.processor.IDiscountCalculator;
+import com.grocery.demo.service.calculator.DiscountCalculatorFactory;
+import com.grocery.demo.service.calculator.IDiscountCalculator;
 
 import java.math.BigDecimal;
 import java.util.List;

@@ -30,7 +30,7 @@ public class OrderRepository {
             return OrderUtil.buildOrderList();
         } catch (IOException exception) {
             exception.printStackTrace();
-            logger.warn("Error to load order list form json file");
+            logger.warn("Error to load order list from json file");
         }
         return new ArrayList<>();
     }

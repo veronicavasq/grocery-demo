@@ -30,7 +30,7 @@ public class DiscountRepository {
             return OrderUtil.buildDiscountList();
         } catch (IOException exception) {
             exception.printStackTrace();
-            logger.warn("Error to load order list form json file");
+            logger.warn("Error to load discount list from json file");
         }
         return new ArrayList<>();
     }

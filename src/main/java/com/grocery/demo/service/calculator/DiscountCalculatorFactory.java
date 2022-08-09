@@ -1,4 +1,4 @@
-package com.grocery.demo.service.processor;
+package com.grocery.demo.service.calculator;
 
 import com.grocery.demo.exception.ErrorCode;
 import com.grocery.demo.exception.InvalidDiscountCalculatorException;

@@ -23,17 +23,17 @@ public final class OrderUtil {
 
     public static <T> T readJson(String filePath, Class<T> clazz) throws IOException {
         ObjectMapper mapper = buildObjectMapper();
-        File file = new File("src/test/resources/" + filePath);
+        File file = new File(filePath);
         String data = FileUtils.readFileToString(file, StandardCharsets.UTF_8);
         return mapper.readValue(data, clazz);
     }
 
     public static List<Discount> buildDiscountList() throws IOException {
-        return Arrays.asList(readJson("discounts.json", Discount[].class));
+        return Arrays.asList(readJson("src/main/resources/discounts.json", Discount[].class));
     }
 
     public static List<Order> buildOrderList() throws IOException {
-        return Arrays.asList(readJson("orders.json", Order[].class));
+        return Arrays.asList(readJson("src/main/resources/orders.json", Order[].class));
     }
 
 }
